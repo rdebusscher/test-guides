@@ -1,3 +1,8 @@
+## Antora
+
+.cache/
+html/
+
 target/
 
 *.class

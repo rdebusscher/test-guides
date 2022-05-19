@@ -1,0 +1,12 @@
+= Guides
+
+Listing of all the guides
+
+
+== Hello World
+
+A simple getting started as the xref:hello:microstream-hello.adoc[Hello World]
+
+== Configuration
+
+How to perform a full configuration through the  xref:config:microstream-config.adoc[EmbeddedStorageFoundation]

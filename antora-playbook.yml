@@ -1,0 +1,17 @@
+site:
+  title: Mic roStream Guides
+#  start_page: payara-server-documentation::README.adoc
+content:
+    sources:
+      - url: ./
+        start_path: docs
+        branches: HEAD
+ui:
+    bundle:
+        url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+        snapshot: true
+runtime:
+    fetch: true
+    cache_dir: ./.cache
+output:
+    dir: ./html
