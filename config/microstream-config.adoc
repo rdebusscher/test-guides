@@ -1,0 +1,16 @@
+= Configure Embedded Storage Manager
+
+Example of a guide,
+
+
+
+== Define Storage Manager
+
+In your program, define the File Provider
+
+[source,java]
+----
+include::src/main/java/be/rubus/courses/payara/micro/microstream/config/FullConfiguration.java[tag=fileProvider]
+----
+
+The rest of the guide using snippets from the actual code.

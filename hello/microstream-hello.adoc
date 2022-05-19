@@ -1,0 +1,23 @@
+= Hello World
+
+Example of a guide, the hello world with MicroStream.
+
+== Project dependencies
+
+Within the Maven project file, add the following dependency
+
+[source,xml]
+----
+include::pom.xml[tag=dependency]
+----
+
+== Define Storage Manager
+
+In your program, define the Embedded Storage Manager as
+
+[source,java]
+----
+include::src/main/java/be/rubus/courses/payara/micro/microstream/hello/HelloWorld.java[tag=startManager]
+----
+
+The rest of the guide using snippets from the actual code.
