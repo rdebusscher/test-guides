@@ -3,7 +3,7 @@ name: Generate site with MicroStream Guides
 on:
   push:
     branches:
-      - master
+      - main
 env:
   SITE_DIR: 'site'
 jobs:
